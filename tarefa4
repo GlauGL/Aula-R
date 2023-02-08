@@ -1,0 +1,4 @@
+print('faça o input da temperatura em grau Fahrenheit')
+tf<-scan()
+tc=round((5/9*(tf-32)),1)
+print(tc)
