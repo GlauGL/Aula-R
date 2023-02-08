@@ -1,0 +1,7 @@
+print('faça o input da altura do retangulo')
+altura<-scan()
+print('faça o input da base do retangulo')
+base<-scan()
+area=round(altura*base)
+perimetro=round(2*altura+2*base)
+print(paste('a area é',area,'e o perimetro é',perimetro))
